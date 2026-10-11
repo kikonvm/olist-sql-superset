@@ -2,7 +2,7 @@
 
 Учебный аналитический проект на открытом датасете бразильского маркетплейса Olist (Brazilian E-Commerce Public Dataset, Kaggle). Данные загружены в PostgreSQL, анализ написан на SQL, результаты собраны в дашборд Apache Superset.
 
-![Дашборд](docs/dashboard.png)
+![Дашборд](docs/dashboard.jpg)
 
 ## Вопросы проекта
 
@@ -83,8 +83,8 @@
 
 ├── README.md
 ├── docs/
-│   ├── dashboard.png          # скриншот дашборда
-│   └── schema.png             # схема связей таблиц
+│   ├── dashboard.jpg          # скриншот дашборда
+│   └── schema.jpg             # схема связей таблиц
 ├── sql/
 │   ├── 00_prepare_types.sql
 │   ├── 01_revenue_by_month.sql
