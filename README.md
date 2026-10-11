@@ -44,6 +44,7 @@
 
 ## Данные
 
+Данные взяты с Kaggle [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 9 таблиц в схеме `public`:
 
 | Таблица | Содержимое | Строк |
