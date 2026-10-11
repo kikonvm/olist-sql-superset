@@ -59,7 +59,7 @@
 | `product_category_name_translation` | перевод категорий на английский | 71 |
 
 Связи: `orders` — центр схемы; к нему по `order_id` подключены позиции, платежи и отзывы, по `customer_id` покупатели; позиции ведут к товарам (`product_id`) и продавцам (`seller_id`).
-![Схема](schema.jpg) 
+![Схема](schema.png) 
 
 ## Стек
 
@@ -85,7 +85,7 @@
 ├── README.md
 ├── docs/
 │   ├── dashboard.jpg          # скриншот дашборда
-│   └── schema.jpg             # схема связей таблиц
+│   └── schema.png             # схема связей таблиц
 ├── sql/
 │   ├── 00_prepare_types.sql
 │   ├── 01_revenue_by_month.sql
